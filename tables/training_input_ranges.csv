@@ -1,0 +1,5 @@
+feature,minimum,5th_percentile,median,95th_percentile,maximum
+Temperature [C],30.0,34.065,36.8,40.2,42.0
+pH,6.0,6.4665,7.015,7.547,7.8
+Glucose [mM],0.0,0.0,13.95,28.47,39.9
+Lactate [mM],0.0,0.0,14.3,30.904999999999998,40.0

@@ -1,0 +1,15 @@
+model,validation_rmse,validation_mae,validation_r2
+Polynomial degree 2,0.159244,0.128798,0.302216
+"KNN k=15, weights=distance",0.161874,0.135068,0.285737
+"KNN k=25, weights=distance",0.162523,0.136995,0.281214
+"KNN k=15, weights=uniform",0.162807,0.135319,0.278165
+"KNN k=25, weights=uniform",0.163690,0.137981,0.271412
+"KNN k=10, weights=distance",0.163879,0.137056,0.266108
+"KNN k=5, weights=distance",0.164225,0.136373,0.256698
+Polynomial degree 3,0.164764,0.134038,0.261425
+"KNN k=5, weights=uniform",0.164833,0.136626,0.252149
+"KNN k=10, weights=uniform",0.165096,0.138175,0.256514
+"KNN k=3, weights=distance",0.168288,0.140121,0.216674
+"KNN k=3, weights=uniform",0.168558,0.140411,0.213924
+Linear regression,0.180363,0.149721,0.112822
+Baseline (mean),0.193244,0.157882,-0.014523

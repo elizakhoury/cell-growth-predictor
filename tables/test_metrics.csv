@@ -1,0 +1,2 @@
+model,test_observations,test_rmse,test_mae,test_r2
+Polynomial degree 2,64,0.14549699031227156,0.11727833035717261,0.22138956982941427
