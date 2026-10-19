@@ -132,6 +132,18 @@ Predicted growth increases with glucose over the plotted range, while it decreas
 
 The model includes interaction terms, so changing the reference conditions can change these response curves. In particular, the apparent temperature peak at fixed median conditions need not match the temperatures associated with the highest observed growth rates. Observations vary across all four inputs simultaneously, whereas each curve changes only one.
 
+### Biological Context for the Model Responses
+
+The four inputs represent conditions that can affect cellular metabolism and proliferation. The following experimental examples provide biological context, but they do not identify the cell type or mechanisms used to generate this simulated dataset.
+
+**Temperature:** Temperature affects the rates of cellular processes and can change the balance between proliferation and product formation. In one CHO-cell study, reducing temperature from 37 to 33 °C reduced growth while increasing cell-specific protein production. Thus, conditions that maximize growth need not maximize productivity. Our model’s temperature peak is an empirical prediction at fixed reference conditions, not a universal biological optimum. [Experimental temperature study](https://www.sciencedirect.com/science/article/abs/pii/0141022995001212)
+
+**pH:** Culture pH influences metabolism and the conditions cells must maintain internally. Experimental CHO cultures showed that pH control altered glucose consumption and lactate production, demonstrating that these variables are interconnected. The model’s predicted peak near pH 7 should therefore be interpreted in the context of the other inputs rather than as an independently established optimum. [Experimental pH study](https://pubmed.ncbi.nlm.nih.gov/27453130/)
+
+**Glucose:** Glucose supplies carbon and energy for cellular activity. Insufficient availability can limit proliferation; a CHO-cell study reported growth arrest following glucose depletion. This provides context for the model’s increasing response to glucose over the plotted range. It does not imply that unlimited glucose addition would continuously improve growth. [Experimental glucose study](https://www.sciencedirect.com/science/article/pii/S0168165606002471)
+
+**Lactate:** Lactate is linked to glucose metabolism and can accumulate as a byproduct. Its relationship with growth is context-dependent: experimental CHO cultures have demonstrated simultaneous glucose and lactate consumption. Therefore, the model’s decreasing response to lactate summarizes this dataset rather than proving that lactate always inhibits growth. The interaction between nutrient availability, pH, and metabolic state limits conclusions based on one concentration alone. [Experimental glucose–lactate study](https://www.sciencedirect.com/science/article/pii/S1369703X19302955)
+
 ### Examples of High- and Low-Growth Conditions
 
 The table below presents selected training observations. These are observed examples from the simulated dataset, rather than operating conditions created by optimization.
